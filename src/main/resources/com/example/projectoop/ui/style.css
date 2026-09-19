@@ -1,0 +1,39 @@
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #3a3a5c;
+    -fx-background-radius: 4;
+}
+.scroll-bar:vertical .track {
+    -fx-background-color: #1e1e2e;
+}
+.scroll-bar:horizontal .thumb {
+    -fx-background-color: #3a3a5c;
+}
+
+/* ComboBox dropdown */
+.combo-box .list-cell {
+    -fx-background-color: #2a2a3e;
+    -fx-text-fill: #aaaacc;
+}
+.combo-box-popup .list-view {
+    -fx-background-color: #2a2a3e;
+    -fx-border-color: #3a3a5c;
+}
+.combo-box-popup .list-cell:hover {
+    -fx-background-color: #3a3a5c;
+}
+
+/* ListView selection */
+.list-view .list-cell:selected {
+    -fx-background-color: #2a3a5e;
+}
+
+/* Separator */
+.separator .line {
+    -fx-border-color: #3a3a5c;
+}
+
+/* TextField focus */
+.text-field:focused {
+    -fx-border-color: #7c9ef8;
+    -fx-border-width: 1.5;
+}
